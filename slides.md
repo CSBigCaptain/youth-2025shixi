@@ -262,6 +262,8 @@ transition: slide-up
 </v-switch>
 
 ---
+transition: slide-up
+---
 
 # VS Code 插件安装
 
@@ -293,6 +295,8 @@ VS Code 默认语言为英文，需要安装汉化插件，另外在学习过程
 </template>
 </v-switch>
 
+---
+transition: slide-up
 ---
 
 # 新建网页项目
@@ -350,6 +354,8 @@ Project
 </template>
 </v-switch>
 
-
+---
+src: ./dev.md
+---
 
 
