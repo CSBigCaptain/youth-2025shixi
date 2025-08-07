@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/example-code/:path*", "destination": "/example/:path*" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
+}

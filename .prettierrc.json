@@ -1,0 +1,8 @@
+{
+    "htmlWhitespaceSensitivity": "ignore",
+    "printWidth": 80,
+    "semi": false,
+    "embeddedLanguageFormatting": "auto",
+    "singleQuote": true,
+    "bracketSameLine": true
+}
