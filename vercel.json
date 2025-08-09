@@ -1,8 +1,8 @@
 {
   "rewrites": [
-    { "source": "/example-code/:path*", "destination": "/example/:path*" },
+    { "source": "/example/:path*", "destination": "/example/:path*" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-  "buildCommand": "npm run build",
+  "buildCommand": "npm run build && cp -r example-code dist/example",
   "outputDirectory": "dist"
 }

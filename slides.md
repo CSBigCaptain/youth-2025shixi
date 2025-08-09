@@ -78,6 +78,11 @@ layout: center
 ---
 layout: center
 ---
+## 压缩
+
+---
+layout: center
+---
 
 # 为什么要用压缩包？
 
@@ -103,6 +108,65 @@ layout: center
 
 - 7-zip 官网：https://www.7-zip.org/
 - Bandizip 官网：https://www.bandisoft.com/bandizip/
+
+---
+layout: center
+---
+
+## 截图
+
+---
+
+### Windows 系统自带的截图工具
+
+快捷键
+
+- `Win + Shift + S`：可以选择截图区域，截图后会自动复制到剪贴板
+- `Win + Print Screen`：全屏截图，截图后会自动保存到剪贴板中，可以直接粘贴
+- `Alt + Print Screen`：截取当前活跃窗口截图，截图在剪切板中
+
+<div v-click at="1" v-motion :enter="{ y: 30 }">
+
+### 一些第三方截图软件
+
+Windows 自带的截图软件存在着响应速度慢，图片保存麻烦且图片处理功能少的问题，我们一般会使用一些第三方截图软件：
+
+- QQ 内置截图（推荐）： 快捷键 `Ctrl + Alt + A`，响应速度快，支持图片保存以及快捷转发好友等功能
+- ShareX： 开源截图软件，功能跟也挺多，可以在 Steam 下载。
+
+</div>
+
+---
+layout: center
+---
+
+# 复制粘贴
+
+---
+
+### 复制 (Copy, ``Ctrl + C``)
+
+```js {monaco-run}
+const text = "Hello, World!";
+
+console.log(text);
+```
+
+### 粘贴 (Paste, `Ctrl + V`)
+
+```js {monaco-run}
+
+
+// 123123
+```
+
+### 剪切 (Cut , `Ctrl + X`)
+
+```js {monaco-run}
+
+
+// 123123
+```
 
 ---
 layout: default
@@ -262,6 +326,8 @@ transition: slide-up
 </v-switch>
 
 ---
+transition: slide-up
+---
 
 # VS Code 插件安装
 
@@ -293,6 +359,8 @@ VS Code 默认语言为英文，需要安装汉化插件，另外在学习过程
 </template>
 </v-switch>
 
+---
+transition: slide-up
 ---
 
 # 新建网页项目
@@ -350,6 +418,12 @@ Project
 </template>
 </v-switch>
 
+---
+src: ./html-intro.md
+---
 
+---
+src: ./css-intro.md
+---
 
 
