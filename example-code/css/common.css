@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a,
+.nav a:visited,
+.nav a:hover,
+.nav a:active {
+  /* 清除超链接的默认样式 */
+  color: white;
+  text-decoration: none;
+}
+
+.nav ul {
+  /* 清除列表前面的小圆点 */
+  list-style: none;
+}
+
+.nav {
+  width: 100%;
+  background-color: #37474f;
+  overflow: hidden;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.nav .logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav nav {
+  height: 100%;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.nav ul li {
+  width: 80px;
+  height: 100%;
+}
+
+.nav ul li a {
+  color: #b0bec5;
+  line-height: 60px;
+  height: 100%;
+  text-align: center;
+  display: block;
+}
+
+.nav ul li a:hover {
+  background-color: #546e7a;
+  transition: all 0.35s ease;
+}
+
+body {
+    background: #78909c;
+}
+
+main {
+    padding: 50px;
+    width: 75%;
+    margin: 0 auto;
+    background: #455a64;
+    min-height: 1000px;
+    color: #cfd8dc;
+}
