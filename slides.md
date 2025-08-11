@@ -426,4 +426,7 @@ src: ./html-intro.md
 src: ./css-intro.md
 ---
 
+---
+src: ./play-example.md
+---
 

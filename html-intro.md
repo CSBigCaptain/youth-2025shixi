@@ -91,14 +91,6 @@ https://csbigcaptain.github.io/
 layout: center
 ---
 
-# 实操环节
-
-制作个人简介页面
-
----
-layout: center
----
-
 <v-switch>
 <template #0>
 
