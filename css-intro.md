@@ -12,8 +12,6 @@ layout: center
 
 # 盒模型
 
-最 Minecraft 的一集
-
 ---
 
 每个 HTML 元素都是一个盒子（就像 Minecraft 世界的方块一样）
@@ -125,7 +123,7 @@ layout: center
 
 怎么简单地理解这两个元素呢？
 
-- `<div>` : PPT 里面的文本框，用来包裹 HTML 元素的。
+- `<div>` : 类似于 PPT 里面的文本框，用来包裹 HTML 元素。
 - `<span>` : 一般用来包裹文字用。
 
 ```html

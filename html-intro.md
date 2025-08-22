@@ -149,7 +149,7 @@ transition: slide-up
 
 ## 代码获取
 
-可以去 https://csbigcaptain.github.io/youth-2025shixi/23 中复制代码。
+可以去 https://csbigcaptain.github.io/youth-2025shixi/26 中复制代码。
 
 可以在网页中进行简单的编辑，刷新网页即可重置。
 

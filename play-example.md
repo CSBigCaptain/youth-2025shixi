@@ -99,10 +99,115 @@ layout: center
 
 ---
 
-接着，我们在 `/css/` 目录下创建 `common.css` 文件，这个文件存储着我提供的模板的样式。
+接着，我们在 `/css/` 目录下创建 `common.css` 以及 `index.css` 文件。
 
-新建完文件后，我们的文件目录应该是这样的：
+新建完文件后，我们的文件树应该是这样的：
+
+```
+Project
+├── css
+│   ├── common.css
+│   └── index.css
+├── img (可选)
+├── js (可选)
+├── media (可选)
+└── index.html
+```
+
+---
+
+这个是 `common.css` 文件的代码（使用代码块右上角的复制按钮复制）：
+
+```css
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a,
+.nav a:visited,
+.nav a:hover,
+.nav a:active {
+  /* 清除超链接的默认样式 */
+  color: white;
+  text-decoration: none;
+}
+
+.nav ul {
+  /* 清除列表前面的小圆点 */
+  list-style: none;
+}
+
+.nav {
+  width: 100%;
+  background-color: #37474f;
+  overflow: hidden;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.nav .logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav nav {
+  height: 100%;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.nav ul li {
+  width: 80px;
+  height: 100%;
+}
+
+.nav ul li a {
+  color: #b0bec5;
+  line-height: 60px;
+  height: 100%;
+  text-align: center;
+  display: block;
+}
+
+.nav ul li a:hover {
+  background-color: #546e7a;
+  transition: all 0.35s ease;
+}
+
+body {
+    background: #78909c;
+}
+
+main {
+    padding: 50px;
+    width: 75%;
+    margin: 0 auto;
+    background: #455a64;
+    min-height: 1000px;
+    color: #cfd8dc;
+}
 
 ```
 
+---
+transition: slide-up
+---
+
+接下来我们在 `index.css` 文件中引入我们的 `common.css` 文件：
+
+```css
+@import url("./common.css");
 ```
+
+通过这些引用的代码，我们已经完成了网页中绝大多数内容的开发。
+

@@ -71,7 +71,7 @@ layout: center
     <h1 class="font-bold">为什么要进行扫盲课？</h1>
   </template>
   <template #1>
-    <img src="/img/smk-example.png" />
+    <img src="/img/smk-example.png" width=700 />
   </template>
 </v-switch>
 
@@ -132,7 +132,7 @@ layout: center
 Windows 自带的截图软件存在着响应速度慢，图片保存麻烦且图片处理功能少的问题，我们一般会使用一些第三方截图软件：
 
 - QQ 内置截图（推荐）： 快捷键 `Ctrl + Alt + A`，响应速度快，支持图片保存以及快捷转发好友等功能
-- ShareX： 开源截图软件，功能跟也挺多，可以在 Steam 下载。
+- ShareX： 开源截图软件，也提供了很多的功能，可以在 Steam 下载。
 
 </div>
 
@@ -169,13 +169,59 @@ console.log(text);
 ```
 
 ---
+layout: center
+---
+
+## AI
+
+---
+
+### 为什么要把 AI 放在扫盲课环节呢？
+
+<div v-motion :enter="{ y: 30 }">
+
+- 利用 AI 获取信息比传统的方式更加的高效
+- 本次培训时间有限，我们并没有机会为大家传授完整的知识，对于一些对网页开发感兴趣的同学来说，AI 可能是自学过程中很好的工具
+- AI 在大学生活中很常用，面对一些报告、小论文作业这类任务时，AI 往往能为我们提供思路
+- 这次培训针对零基础做了一些调整，但是可能还会有不好理解的地方，AI 是一个很好的补充工具
+
+</div>
+
+---
+
+### 一些 AI 工具
+
+<div v-motion :enter="{ y: 30 }">
+
+#### 国内 AI 产品
+
+- 目前个人最建议用 Qwen（https://chat.qwen.ai）
+- DeepSeek（https://chat.deepseek.com）要是半年前我可能会推荐 DeepSeek，但是近期在同行纷纷推出新模型的大背景下，DeepSeek 确实有点儿逊色了
+- 豆包（https://www.doubao.com）字节跳动的产品，功能相对多一些，而且速度也快，适合一些不是很深的问题。另外豆包的 AI 编程制作网页挺好用的，支持在预览页面直接修改，零基础的也能快速制作网页
+- 其他的还有 Kimi、讯飞星火等
+
+#### 国外 AI 产品（需要一些特别的网络环境）
+
+- ChatGPT （https://chatgpt.com）
+- Gemini （https://gemini.google.com）
+- Claude（https://claude.ai）
+
+</div>
+
+---
+layout: center
+---
+
+## 文件路径
+
+---
 layout: default
 transition: slide-up
 ---
 
 <v-click hide at="1">
 
-## 文件路径是什么
+### 文件路径是什么
 
 文件路径用来表示文件在电脑中的位置，我们往往会用到几种特殊的方法来表示路径，我们这里以一个项目的文件夹为例，下面是这个文件夹的结构：
 
@@ -428,5 +474,9 @@ src: ./css-intro.md
 
 ---
 src: ./play-example.md
+---
+
+---
+src: ./end.md
 ---
 
